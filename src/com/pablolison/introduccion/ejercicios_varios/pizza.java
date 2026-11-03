@@ -1,5 +1,5 @@
 // Definición del paquete donde se organiza este archivo dentro del proyecto
-package PRIMERO.Asignaturas.Programacion.prueba1.programacion.src.ejercicios.primertrimestre;
+package com.pablolison.introduccion.ejercicios_varios;
 
 // Definición de la clase principal llamada 'pizza'
 public class pizza {

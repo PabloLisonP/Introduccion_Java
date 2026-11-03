@@ -1,3 +1,4 @@
+package com.pablolison.introduccion.POO.POOPractica;
 class PenaFutbol{
     private String nombre;
     private int euros = 0;

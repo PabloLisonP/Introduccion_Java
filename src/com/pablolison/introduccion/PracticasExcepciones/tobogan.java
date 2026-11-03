@@ -1,4 +1,4 @@
-package com.pablolison.introuction.PracticasExcepciones;
+package com.pablolison.introduccion.PracticasExcepciones;
 
 
 public class tobogan {

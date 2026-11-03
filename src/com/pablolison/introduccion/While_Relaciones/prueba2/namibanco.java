@@ -1,4 +1,7 @@
-public class BancoNami {
+package com.pablolison.introduccion.While_Relaciones.prueba2;
+
+
+public class namibanco {
     
     static int pruebasTotales=0;
     static int pruebasFallidas=0;
@@ -31,8 +34,3 @@ public class BancoNami {
     System.out.println("Total: " + pruebasTotales + " Fallidas: " + pruebasFallidas);
 }
 }
-  //static int sumarIngresos(int[] ingresos)
-
-  //for(int posicion=0; posicion<ingresos.length;i++){
-   //             sumadeingresos +=ingresos[i];
-     //       }

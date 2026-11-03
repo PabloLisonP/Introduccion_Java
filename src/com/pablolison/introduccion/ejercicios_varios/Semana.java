@@ -1,3 +1,4 @@
+package com.pablolison.introduccion.ejercicios_varios;
 public class Semana {
      public static void main (String[] args){
         System.out.print("Lunes ");

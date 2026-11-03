@@ -1,3 +1,4 @@
+package com.pablolison.introduccion.POO.POOPractica;
 class tanda{
     static int penaltisMarcado=0;
     static int tandasJugadas=0;

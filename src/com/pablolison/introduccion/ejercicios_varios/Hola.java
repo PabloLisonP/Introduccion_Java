@@ -1,4 +1,4 @@
-package PRIMERO.Asignaturas.Programacion.prueba1.programacion.src.ejercicios.primertrimestre;
+package com.pablolison.introduccion.ejercicios_varios;
 
    
     public class Hola {

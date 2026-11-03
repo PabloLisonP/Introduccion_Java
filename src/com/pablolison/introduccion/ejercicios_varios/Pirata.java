@@ -1,3 +1,6 @@
+package com.pablolison.introduccion.ejercicios_varios;
+
+
 public class Pirata {
     static void dividir(int[] monedas , int[] piratas){
 

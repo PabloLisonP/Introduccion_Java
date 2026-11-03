@@ -1,3 +1,6 @@
+package com.pablolison.introduccion.While_Relaciones.prueba2;
+
+
 // Definición de la clase principal llamada 'movilwhile'
 public class movilwhile {
     

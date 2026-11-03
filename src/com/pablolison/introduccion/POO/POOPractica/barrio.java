@@ -1,3 +1,4 @@
+package com.pablolison.introduccion.POO.POOPractica;
 class Estadio{
     String nombre;
     int aforo;

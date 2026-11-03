@@ -1,3 +1,4 @@
+package com.pablolison.introduccion.ejercicios_varios;
 //package primertrimestre;
 
     public class Menu{
