@@ -1,4 +1,4 @@
-public class canser {
+/*public class canser {
     public static void mostrar(){
         System.out.println("1 hola");
         System.out.println("2 adios");
@@ -13,3 +13,4 @@ public class canser {
         String opcionText = sc.nextLine();
     }
 }
+*/
