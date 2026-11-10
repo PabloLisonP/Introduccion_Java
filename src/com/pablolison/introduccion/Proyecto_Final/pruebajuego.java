@@ -1,3 +1,5 @@
+package com.pablolison.introduccion.Proyecto_Final;
+
 import java.util.Random;
 import java.util.Scanner;
 
