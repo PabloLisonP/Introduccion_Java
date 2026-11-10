@@ -1,4 +1,4 @@
-package com.pablolison.introduccion.Proyecto_Final;
+
 
 import java.util.Scanner;
 import java.util.Random;
@@ -286,9 +286,7 @@ static int aplicarDefensa(int danio){
         }else{
                 return danio;
 
-}
-}
-
+}}
 
 static void pausa(int milisegundos){
     try {
@@ -319,5 +317,3 @@ public static void main(String[] args) {
         }
     }while(eleccionmenu != 3);
 }}
-
-
