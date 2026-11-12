@@ -441,21 +441,26 @@ public static void main(String[] args) {
 
     int eleccionmenu; 
 
-    do{menu();
-        eleccionmenu = leerTeclado("Selecciona una opcion. 1-2-3", 1, 3);
+    //Cogemos la parte que puede ir mal con el try y seguimos
+    try{
+        do{menu();
+            eleccionmenu = leerTeclado("Selecciona una opcion. 1-2-3", 1, 3);
 
-        switch (eleccionmenu) 
-        {
-            case 1:
-                // elegirJefe() devuelve el jefe y combate() lo recibe como parametro.
-                combate(elegirJefe());
-                break;
-            case 2:
-                instrucciones();
-                break;
-            case 3:
-                System.out.println("Hasta la proxima!");
-                break;  
-        }
-    }while(eleccionmenu != 3);
+            switch (eleccionmenu) 
+            {
+                case 1:
+                    // elegirJefe() devuelve el jefe y combate() lo recibe como parametro.
+                    combate(elegirJefe());
+                    break;
+                case 2:
+                    instrucciones();
+                    break;
+                case 3:
+                    System.out.println("Hasta la proxima!");
+                    break;  
+            }
+        }while(eleccionmenu != 3);
+        //Finally devuelve al final del buce que cuando decidimos salir literalmente del juego cerremos el scanner que se queda abierto durante toda la partida
+    }finally{teclado.close();}
+
 }}
