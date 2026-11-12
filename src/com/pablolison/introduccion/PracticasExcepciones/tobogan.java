@@ -5,7 +5,7 @@ public class tobogan {
     
     public static void main(String[] args){
 
-        String[] toboganes = {"rojo", "verde", "amarillo"}; //rojo -> 0
+        String[] toboganes = {"rojo", "verde", "amarillo", "rojo", "verde", "azul"}; //rojo -> 0
         int[] pedidos = {2, 7, -3};
 
 

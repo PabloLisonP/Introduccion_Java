@@ -1,4 +1,4 @@
-
+package com.pablolison.introduccion.Proyecto_Final;
 /*
 IRON DAYS - Minijuego de combate por turnos en la terminal.
 El jugador (120 de vida) se enfrenta a un jefe elegido por el. En cada ronda
@@ -34,7 +34,6 @@ public class Videogame {
     static final String AMARILLO = "\u001B[33m";
     static final String AZUL = "\u001B[34m";
     static final String MORADO = "\u001B[35m";
-    
 /*
 CLASE JEFE (la parte de objetos del proyecto).
 Agrupa los datos de un jefe: su nombre, su vida actual y su vida maxima.
@@ -181,6 +180,7 @@ static String colorAtaque(int ataque){
         default:
     return MORADO;
 }}
+
 
 /*
 elegirJefe(): muestra los tres jefes, deja elegir uno y DEVUELVE el objeto Jefe creado.
