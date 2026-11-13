@@ -38,9 +38,34 @@ static final Random aleatorio= new Random();
         return total;
     }
 
+    static int contarSeis(int[] acumulador){
+
+        int numSeis=0;
+
+            for(int i=0;i< acumulador.length;i++){
+                if(acumulador[i]==6){
+                    numSeis++;
+                }
+            }return numSeis;
+    }
     public static void main(String[] args){
             int[] acumulador= dados();
             int resulSuma =sumaDados(acumulador);
-    System.out.println("Suma:" + resulSuma);
+            int totalSeis=contarSeis(acumulador);
+
+            System.out.println("Suma:" + resulSuma);
+            System.out.println("Han salido " + totalSeis);
+
+
+            if(resulSuma >=20){
+                System.out.println("¡Gran tirada!");
+            }else if(resulSuma>=12){
+                System.out.println("Tirada normal");
+            }else{
+                System.out.println("Mala tirada");
+            }
+
+
+    
         }
 }
