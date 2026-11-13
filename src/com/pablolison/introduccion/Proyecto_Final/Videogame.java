@@ -460,7 +460,7 @@ public static void main(String[] args) {
                     break;  
             }
         }while(eleccionmenu != 3);
-        //Finally devuelve al final del buce que cuando decidimos salir literalmente del juego cerremos el scanner que se queda abierto durante toda la partida
+        //Finally devuelve al final del bucLe que cuando decidimos salir literalmente del juego cerremos el scanner que se queda abierto durante toda la partida
     }finally{teclado.close();}
 
 }}
